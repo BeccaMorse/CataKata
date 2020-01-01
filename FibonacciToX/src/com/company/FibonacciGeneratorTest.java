@@ -18,6 +18,19 @@ class FibonacciGeneratorTest {
         FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(3);
         assertEquals(1,fibonacciGenerator.getFibonacciSequence()[2]);
     }
+
+    @Test
+    void sequenceIndex3Equals2() {
+        FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(3);
+        assertEquals(1,fibonacciGenerator.getFibonacciSequence()[2]);
+    }
+
+    @Test
+    void sequenceIndex4Equals3() {
+        FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(3);
+        assertEquals(1,fibonacciGenerator.getFibonacciSequence()[2]);
+    }
+
 //    @Test
 //    void negativeIterationsFails() {
 //        FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(-12);

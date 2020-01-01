@@ -45,17 +45,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciGeneratorTest.sequenceIndex2Equals1">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="FibonacciToX" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FibonacciGeneratorTest">
     <configuration name="FibonacciGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FibonacciToX" />
       <extension name="coverage">
@@ -103,16 +93,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibonacciGeneratorTest.sequenceIndex3Equals2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FibonacciToX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.FibonacciGeneratorTest" />
+      <option name="METHOD_NAME" value="sequenceIndex3Equals2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciGeneratorTest.sequenceIndex4Equals3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FibonacciToX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.FibonacciGeneratorTest" />
+      <option name="METHOD_NAME" value="sequenceIndex4Equals3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.FibonacciGeneratorTest.constructorSetsNumberOfIterations" />
       <item itemvalue="JUnit.FibonacciGeneratorTest" />
       <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex2Equals1" />
+      <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex4Equals3" />
+      <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex3Equals2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex2Equals1" />
         <item itemvalue="JUnit.FibonacciGeneratorTest" />
+        <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex3Equals2" />
+        <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex4Equals3" />
+        <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex2Equals1" />
         <item itemvalue="JUnit.FibonacciGeneratorTest.constructorSetsNumberOfIterations" />
       </list>
     </recent_temporary>
@@ -151,22 +176,22 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1577890473202" />
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1577894345561">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1577896397082">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1577894345561" />
-    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1577894345561">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1577896397082" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1577896397081">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1577894345561" />
-    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1577894345560">
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1577896397081" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1577896397081">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1577894345560" />
-    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1577894345561">
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1577896397081" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1577896397082">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1577894345561" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1577896397082" />
     <state x="432" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577891372498">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
