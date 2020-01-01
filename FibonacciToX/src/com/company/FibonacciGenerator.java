@@ -17,6 +17,9 @@ public class FibonacciGenerator {
         if (numberOfIterations >= 2) {
             fibonacciSequence[1] = 1;
         }
+        for (int i = 2 ; i < numberOfIterations ; i++) {
+            fibonacciSequence[i] = fibonacciSequence[i-1] + fibonacciSequence [i-2];
+        }
 
 
     }
