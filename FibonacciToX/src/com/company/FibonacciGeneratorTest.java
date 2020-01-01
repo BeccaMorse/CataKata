@@ -20,6 +20,18 @@ class FibonacciGeneratorTest {
     }
 
     @Test
+    void sequenceIndex0Equals0() {
+        FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(3);
+        assertEquals(0,fibonacciGenerator.getFibonacciSequence()[0]);
+    }
+
+    @Test
+    void sequenceIndex1Equals1() {
+        FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(3);
+        assertEquals(1,fibonacciGenerator.getFibonacciSequence()[1]);
+    }
+
+    @Test
     void sequenceIndex2Equals1() {
         FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(3);
         assertEquals(1,fibonacciGenerator.getFibonacciSequence()[2]);
