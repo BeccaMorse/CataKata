@@ -6,6 +6,7 @@ public class Main {
         //take input
         //convert to integer
 
+        //output the sequence
 
     }
 }
