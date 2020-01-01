@@ -14,6 +14,12 @@ class FibonacciGeneratorTest {
     }
 
     @Test
+    void inputZeroYieldsNull() {
+        FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(0);
+        assertNull(fibonacciGenerator.getFibonacciSequence());
+    }
+
+    @Test
     void sequenceIndex2Equals1() {
         FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(3);
         assertEquals(1,fibonacciGenerator.getFibonacciSequence()[2]);

@@ -61,7 +61,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciGeneratorTest.constructorSetsNumberOfIterations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciGeneratorTest.inputZeroYieldsError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FibonacciToX" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +71,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.FibonacciGeneratorTest" />
-      <option name="METHOD_NAME" value="constructorSetsNumberOfIterations" />
+      <option name="METHOD_NAME" value="inputZeroYieldsError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,19 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FibonacciGeneratorTest.constructorSetsNumberOfIterations" />
       <item itemvalue="JUnit.FibonacciGeneratorTest" />
       <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex2Equals1" />
       <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex4Equals3" />
       <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex3Equals2" />
+      <item itemvalue="JUnit.FibonacciGeneratorTest.inputZeroYieldsError" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FibonacciGeneratorTest" />
+        <item itemvalue="JUnit.FibonacciGeneratorTest.inputZeroYieldsError" />
         <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex3Equals2" />
         <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex4Equals3" />
         <item itemvalue="JUnit.FibonacciGeneratorTest.sequenceIndex2Equals1" />
-        <item itemvalue="JUnit.FibonacciGeneratorTest.constructorSetsNumberOfIterations" />
       </list>
     </recent_temporary>
   </component>
@@ -172,26 +172,30 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="320" y="91" key="#Inspections/0.23.1440.811@0.23.1440.811" timestamp="1577892169811" />
+    <state x="120" y="143" width="1200" height="566" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577897540479">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="120" y="143" width="1200" height="566" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.811@0.23.1440.811" timestamp="1577897540479" />
     <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1577890473202">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1577890473202" />
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1577896397082">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1577897573788">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1577896397082" />
-    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1577896397081">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1577897573788" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1577897573788">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1577896397081" />
-    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1577896397081">
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1577897573788" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1577897573787">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1577896397081" />
-    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1577896397082">
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1577897573787" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1577897573788">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1577896397082" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1577897573788" />
     <state x="432" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577891372498">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
@@ -200,6 +204,10 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="499" y="160" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.811@0.23.1440.811" timestamp="1577892591179" />
+    <state x="312" y="23" width="816" height="811" key="find.popup" timestamp="1577897568219">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="312" y="23" width="816" height="811" key="find.popup/0.23.1440.811@0.23.1440.811" timestamp="1577897568219" />
     <state width="600" height="291" key="javadoc.popup" timestamp="1577892633177">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
