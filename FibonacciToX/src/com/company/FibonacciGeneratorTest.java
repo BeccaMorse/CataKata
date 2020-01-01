@@ -37,9 +37,9 @@ class FibonacciGeneratorTest {
         assertEquals(1,fibonacciGenerator.getFibonacciSequence()[2]);
     }
 
-//    @Test
-//    void negativeIterationsFails() {
-//        FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(-12);
-//
-//    }
+    @Test
+    void negativeIterationsFails() {
+        FibonacciGenerator fibonacciGenerator = new FibonacciGenerator(-12);
+        assertNull(fibonacciGenerator.getFibonacciSequence());
+    }
 }
