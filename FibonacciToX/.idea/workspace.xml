@@ -177,22 +177,26 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="533" y="149" key="#com.intellij.ide.util.MemberChooser/0.23.1440.811@0.23.1440.811" timestamp="1577890473202" />
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1577987998248">
+    <state x="458" y="180" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1577989508126">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1577987998248" />
-    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1577987998247">
+    <state x="458" y="180" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.811@0.23.1440.811" timestamp="1577989508126" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1577990099381">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1577987998247" />
-    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1577987998247">
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1577990099381" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1577990099381">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1577987998247" />
-    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1577987998248">
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1577990099381" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1577990099380">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1577987998248" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1577990099380" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1577990099381">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1577990099381" />
     <state width="1358" height="241" key="GridCell.Tab.1.bottom" timestamp="1577898846511">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
@@ -221,10 +225,10 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="283" y="169" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.811@0.23.1440.811" timestamp="1577898755460" />
-    <state x="312" y="23" width="816" height="811" key="find.popup" timestamp="1577897568219">
+    <state x="312" y="23" width="816" height="811" key="find.popup" timestamp="1577989587457">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="312" y="23" width="816" height="811" key="find.popup/0.23.1440.811@0.23.1440.811" timestamp="1577897568219" />
+    <state x="312" y="23" width="816" height="811" key="find.popup/0.23.1440.811@0.23.1440.811" timestamp="1577989587457" />
     <state width="600" height="291" key="javadoc.popup" timestamp="1577892633177">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
