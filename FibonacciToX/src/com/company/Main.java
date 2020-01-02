@@ -13,6 +13,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int iterations = Integer.parseInt(scanner.nextLine());
 
+        
 
         System.out.println("Now Generating " + iterations + " integers in the Fibonacci Sequence...");
 
