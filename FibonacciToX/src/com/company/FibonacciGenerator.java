@@ -7,7 +7,7 @@ public class FibonacciGenerator {
     public FibonacciGenerator(int numberOfIterations) {
         this.numberOfIterations = numberOfIterations;
         if (numberOfIterations > 0) {
-            fibonacciSequence = new int[numberOfIterations];
+            this.fibonacciSequence = new int[numberOfIterations];
             populateFibonacciSequence(numberOfIterations);
         }
     }
