@@ -17,7 +17,6 @@ logo2.src = 'dog.jpg'
 	
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
-container.style.display = 'flex'
 
 app.appendChild(logo)
 app.appendChild(container)
@@ -47,14 +46,15 @@ xmlHttpRequest.onload = function () {
 			const p = document.createElement('p')
 			p.textContent = beer.description
 				
-			const detailsButton = document.createElement('button')
-			const buttonText = document.createTextNode("More about " + beer.name)
-			detailsButton.setAttribute('id','details')
-			detailsButton.setAttribute('onClick','showDetails()')
-			detailsButton.appendChild(buttonText)
+//			const detailsButton = document.createElement('button')
+//			const buttonText = document.createTextNode("More about " + beer.name)
+//			detailsButton.setAttribute('id','details')
+//			detailsButton.setAttribute('onclick','showDetails()')
+//			detailsButton.appendChild(buttonText)
+			
 				
 			const detailsSection = document.createElement('div')
-			detailsSection.setAttribute('id','moreAbout')
+			detailsSection.setAttribute('id','detailsSection')
 			detailsSection.style.display = 'none'
 			
 			const moreAbout = document.createElement('h5')
@@ -72,8 +72,8 @@ xmlHttpRequest.onload = function () {
 			card.appendChild(h3)
 			card.appendChild(img)
 			card.appendChild(p)
-			card.appendChild(detailsButton)
-			card.appendChild(detailsSection)	
+//			card.appendChild(detailsButton)
+//			card.appendChild(detailsSection)	
 
 			
 			
@@ -91,7 +91,7 @@ xmlHttpRequest.onload = function () {
 function showDetails() {
 	var show = document.getElementById("detailsSection")
 	if (detailsSection.style.display === "none") {
-		detailsSection.style.display = "block";
+		detailsSection.style.display = "flex";
 	} else {
 		detailsSection.style.display = "none";
 	}
