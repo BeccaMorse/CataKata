@@ -46,11 +46,11 @@ xmlHttpRequest.onload = function () {
 			const p = document.createElement('p')
 			p.textContent = beer.description
 				
-//			const detailsButton = document.createElement('button')
-//			const buttonText = document.createTextNode("More about " + beer.name)
-//			detailsButton.setAttribute('id','details')
-//			detailsButton.setAttribute('onclick','showDetails()')
-//			detailsButton.appendChild(buttonText)
+			const detailsButton = document.createElement('button')
+			const buttonText = document.createTextNode("More about " + beer.name)
+			detailsButton.setAttribute('id','details')
+			detailsButton.setAttribute('onclick',showDetails())
+			detailsButton.appendChild(buttonText)
 			
 				
 			const detailsSection = document.createElement('div')
@@ -72,8 +72,8 @@ xmlHttpRequest.onload = function () {
 			card.appendChild(h3)
 			card.appendChild(img)
 			card.appendChild(p)
-//			card.appendChild(detailsButton)
-//			card.appendChild(detailsSection)	
+			card.appendChild(detailsButton)
+			card.appendChild(detailsSection)	
 
 			
 			
