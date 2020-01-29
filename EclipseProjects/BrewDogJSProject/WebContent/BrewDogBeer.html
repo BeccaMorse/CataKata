@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
 <style>
 
+body {
+	background-color: BlanchedAlmond;
+}
+
 .card {
-	display: flex;
-	flex-wrap: wrap;
+	display: inline-flex;
+	width: 300px;
 	flex-direction: row;
-	justify-content: left;
+	align-content: flex-start;
+	padding: 5px;
+	border: 2px double brown;
+	border-radius: 25px;
+	box-sizing: border-box;
+
+}
+
+.cardBox {
+	display: inline-flex;
+	padding: 5px;
+
+}
+.cardTitle {
+	display: inline-flex;
+	align-content: center;
+	padding: 0;
+	margin: 0;
 }
 
 #bottle {
@@ -20,12 +42,14 @@
 }
 
 p {
-	display: inline;
+	display: flex-inline;
 }
 
 img {
+	display: inline-flex;
 	flex-wrap: wrap;
 }
+
 
 </style>
 

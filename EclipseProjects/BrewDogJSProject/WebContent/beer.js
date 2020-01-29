@@ -9,16 +9,14 @@
 document.addEventListener('DOMContentLoaded', () => {
 
 const app = document.getElementById('root')
-const logo = document.createElement('img')
-logo.src = 'doggo.png'
+//const logo = document.createElement('img')
+//logo.src = 'doggo.png'
 
 const logo2 = document.createElement('img')
 logo2.src = 'dog.jpg'
 	
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
-
-app.appendChild(logo)
 app.appendChild(container)
 //app.appendChild(logo2)
 
@@ -35,6 +33,10 @@ xmlHttpRequest.onload = function () {
 		beerMenu.forEach(beer => {
 			const card = document.createElement('div')
 			card.setAttribute('class', 'card')
+
+			const cardBox = document.createElement('div')
+            cardBox.setAttribute('class','cardBox')
+
 			
 			const h3 = document.createElement('h3')
 			h3.textContent = beer.name
@@ -46,16 +48,16 @@ xmlHttpRequest.onload = function () {
 			const p = document.createElement('p')
 			p.textContent = beer.description
 				
-			const detailsButton = document.createElement('button')
-			const buttonText = document.createTextNode("More about " + beer.name)
-			detailsButton.setAttribute('id','details')
-			detailsButton.setAttribute('onclick',showDetails())
-			detailsButton.appendChild(buttonText)
+//			const detailsButton = document.createElement('button')
+//			const buttonText = document.createTextNode("More about " + beer.name)
+//			detailsButton.setAttribute('id','details')
+//			detailsButton.setAttribute('onclick',showDetails())
+//			detailsButton.appendChild(buttonText)
 			
 				
 			const detailsSection = document.createElement('div')
 			detailsSection.setAttribute('id','detailsSection')
-			detailsSection.style.display = 'none'
+//			detailsSection.style.display = 'none'
 			
 			const moreAbout = document.createElement('h5')
 			moreAbout.textContent = beer.name + ": " + beer.tagline
@@ -64,16 +66,20 @@ xmlHttpRequest.onload = function () {
 			const foodPairing = document.createElement('p')
 			foodPairing.textContent = 'Amazing Food Pairings: '+ beer.food_pairing
 			
-			
-			container.appendChild(card)
-		
-			detailsSection.appendChild(moreAbout).appendChild(abv).appendChild(foodPairing)
-			
-			card.appendChild(h3)
+			container.appendChild(cardBox)
+
+			const cardTitle = document.createElement('div')
+			cardTitle.setAttribute('id','cardTitle')
+		    cardBox.appendChild(cardTitle)
+//			detailsSection.appendChild(moreAbout).appendChild(abv).appendChild(foodPairing)
+            cardTitle.appendChild(h3)
+
+			cardTitle.appendChild(card)
+
 			card.appendChild(img)
 			card.appendChild(p)
-			card.appendChild(detailsButton)
-			card.appendChild(detailsSection)	
+//			card.appendChild(detailsButton)
+//			card.appendChild(detailsSection)
 
 			
 			
@@ -88,14 +94,14 @@ xmlHttpRequest.onload = function () {
 	}
 }
 
-function showDetails() {
-	var show = document.getElementById("detailsSection")
-	if (detailsSection.style.display === "none") {
-		detailsSection.style.display = "flex";
-	} else {
-		detailsSection.style.display = "none";
-	}
-}
+//function showDetails() {
+//	var show = document.getElementById("detailsSection")
+//	if (detailsSection.style.display === "none") {
+//		detailsSection.style.display = "flex";
+//	} else {
+//		detailsSection.style.display = "none";
+//	}
+//}
 
 xmlHttpRequest.send()
 	
