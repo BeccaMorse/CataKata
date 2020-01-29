@@ -1,0 +1,65 @@
+package com.techelevator.sociemoti.summary;
+
+public class Summary {
+	
+	private long studentId;
+	private String userName;
+	private String scenarioName;
+	private String frameVerbiage;
+	private String imageName;
+	private String faceState;
+	private String choiceText;
+//	private TimeStamp timeStamp;
+	
+	public long getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(long studentId) {
+		this.studentId = studentId;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getScenarioName() {
+		return scenarioName;
+	}
+	public void setScenarioName(String scenarioName) {
+		this.scenarioName = scenarioName;
+	}
+	public String getFrameVerbiage() {
+		return frameVerbiage;
+	}
+	public void setFrameVerbiage(String frameVerbiage) {
+		this.frameVerbiage = frameVerbiage;
+	}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+	public String getFaceState() {
+		return faceState;
+	}
+	public void setFaceState(String faceState) {
+		this.faceState = faceState;
+	}
+	public String getChoiceText() {
+		return choiceText;
+	}
+	public void setChoiceText(String choiceText) {
+		this.choiceText = choiceText;
+	}	
+//	public TimeStamp getTimeStamp() {
+//		return timeStamp;
+//	}
+//	public void setTimeStamp(Timestamp timeStamp) {
+//		java.sql.Date date=new Date();
+//		Timestamp timestamp = new Timestamp(date.getTime());
+//		this.date = timestamp;
+//	
+//	}
+}

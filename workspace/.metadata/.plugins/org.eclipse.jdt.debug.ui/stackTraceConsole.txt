@@ -1,0 +1,1 @@
+<a href="${parkDetail}"> <img                    src="<c:url value="./img/${park.parkCode}.jpg"/>" />                </a>

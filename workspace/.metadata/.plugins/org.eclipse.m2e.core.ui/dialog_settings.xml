@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/rmorse/Development/workspace/TeamExercises/team-bravo-java-blue-final-capstone/vue/backend"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/02-CSS-Layouts"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/03-Introduction-to-MVC-Views/student-exercise"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-4/06_REST_APIs/student-exercise/shopping-api-java"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-4/06_REST_APIs/student-tutorial/todo-rest-java"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/02-CSS-Layouts/student-exercise"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-4/01_Introduction_to_JavaScript/lecture-final"/>
+			<item value="/Users/rmorse/Development/workspace/TeamExercises/team2-java-blue-week9-pair-exercises/12-Capstone"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/XX-MVC-Review/student-lecture"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/10-User-Authentication/student-lecture/user-authorization"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/10-User-Authentication/lecture-final/java-critter-vulnerabilities"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/09-Data-Validation-and-Flash-Attributes/lecture-final/mvc-flashattribute-and-validation-lecture"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/09-Data-Validation-and-Flash-Attributes/student-exercise"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/09-Data-Validation-and-Flash-Attributes/lecture-final/session_catering-lecture"/>
+			<item value="/Users/rmorse/Development/workspace/rebeccamorse-java-blue-material/module-3/08-Session/student-exercise"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,13 @@
+1573660490482	Rename type 'survey'
+1573660521169	Delete element
+1573660911712	Delete element
+1573661271309	Delete element
+1573665571908	Move compilation unit
+1573665650789	Delete element
+1573743734790	Encapsulate field 'surveyCount'
+1573747910940	Copy file
+1573748033457	Delete element
+1573770918169	Rename type 'ParkController'
+1573770937899	Delete element
+1573828419183	Rename resource 'partlyCloudy.png'
+1573870615691	Extract method 'getTempUnitOrDefault'

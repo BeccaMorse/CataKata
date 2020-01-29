@@ -1,0 +1,12 @@
+package com.techelevator.sociemoti.summary;
+
+import java.util.List;
+
+public interface SummaryDAO {
+	
+	public List<Summary> listSummaryByStudentId(int studentId);
+	
+	public void createSummary(Summary summary);
+	
+
+}

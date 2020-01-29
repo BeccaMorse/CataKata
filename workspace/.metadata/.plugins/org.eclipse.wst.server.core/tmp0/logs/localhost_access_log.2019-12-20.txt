@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:09:46:24 -0500] "OPTIONS /AuthenticationApplication/login HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:09:46:24 -0500] "POST /AuthenticationApplication/login HTTP/1.1" 200 203
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:09:46:24 -0500] "OPTIONS /AuthenticationApplication/api/admin HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:09:46:24 -0500] "GET /AuthenticationApplication/api/teacher/students HTTP/1.1" 200 737
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:09:46:24 -0500] "GET /AuthenticationApplication/api/admin/teacher HTTP/1.1" 200 134
+0:0:0:0:0:0:0:1 - - [20/Dec/2019:09:46:24 -0500] "GET /AuthenticationApplication/api/admin HTTP/1.1" 200 985

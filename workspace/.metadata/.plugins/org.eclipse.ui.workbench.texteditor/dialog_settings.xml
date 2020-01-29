@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="724" key="DIALOG_X_ORIGIN"/>
+		<item value="429" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="form" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="form"/>
+			<item value="&quot;form-wrapper&quot;"/>
+			<item value="&lt;div class=&quot;form-wrapper&quot;&gt;"/>
+			<item value="wrapper"/>
+			<item value="**"/>
+			<item value="error"/>
+			<item value="center"/>
+			<item value="flex"/>
+			<item value="but"/>
+			<item value="advisory"/>
+			<item value="href"/>
+			<item value="isFahrenheit"/>
+			<item value=" += "/>
+			<item value="signupurl"/>
+			<item value="valid"/>
+		</list>
+		<list key="replacehistory">
+			<item value=".add("/>
+			<item value="Space"/>
+			<item value=""/>
+			<item value="space"/>
+			<item value="Venue"/>
+			<item value="employee"/>
+			<item value="Employee"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="1062" key="DIALOG_X_ORIGIN"/>
+		<item value="121" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
