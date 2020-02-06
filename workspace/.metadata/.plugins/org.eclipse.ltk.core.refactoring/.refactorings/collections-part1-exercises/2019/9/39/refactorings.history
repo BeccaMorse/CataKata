@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;noFourList&apos; in &apos;com.techelevator.Exercises.no4LetterWords(...)&apos; to &apos;noFoursList&apos;&#x0A;- Original project: &apos;collections-part1-exercises&apos;&#x0A;- Original element: &apos;com.techelevator.Exercises.no4LetterWords(String[]).noFourList&apos;&#x0A;- Renamed element: &apos;noFourList&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;noFourList&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;com.techelevator{Exercises.java[Exercises~no4LetterWords~\[QString;@noFourList!1869!1918!1882!1891!QList\&lt;QString;&gt;;!0!false" name="noFoursList" references="true" stamp="1569356310055" version="1.0"/>
-</session>
